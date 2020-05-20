@@ -11,8 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.maps.SupportMapFragment;
 
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
     private Button button;
 
@@ -31,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openLocationTrack() {
-        Intent intent = new Intent(this, MapActivity.class);
+        Intent intent = new Intent(MainActivity.this, MapActivity.class);
         startActivity(intent);
 
 

@@ -84,7 +84,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
                                     // Implying of map zoom
                             googleMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
-                             googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 12));
+                             googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 8));
                              //Adding up MARKER on the map
                             googleMap.addMarker(options);
 
